@@ -1,6 +1,8 @@
 <div align="center">
   <h1>StringBenchmarker</h1>
   <br />
+  <a href="#results-and-analysis"><strong>Results and Analysis »</strong></a>
+  
   <a href="#getting-started"><strong>Getting Started »</strong></a>
   <br />
   <br />
@@ -127,6 +129,11 @@ Once you have built the Docker image or the .NET project, you can use it to run 
   ```
 
   This command runs the benchmarks inside the Docker container and displays the results in the console.
+
+  Finally:
+  ```bash
+  docker rmi -f stringbenchmarker
+  ```
 
 - **Run benchmarks with .NET 8:**
   ```bash
