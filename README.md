@@ -115,25 +115,9 @@ StringBenchmarker offers the following features to analyze and optimize string m
 
 ## FAQ
 
-#### What is StringBenchmarker?
-
-StringBenchmarker is a tool designed to benchmark and analyze the performance of different string manipulation methods in .NET applications. It helps developers optimize string handling for improved application performance.
-
-#### How do I run benchmarks with StringBenchmarker?
-
-StringBenchmarker supports two primary methods for running benchmarks:
-- **Using Docker**: Build the Docker image and run benchmarks inside a container.
-- **Using .NET 8**: Build the project with .NET 8 and execute benchmarks directly.
-
-Refer to the [Getting Started](#getting-started) section in the README for detailed instructions.
-
 #### How can I customize benchmark parameters?
 
 You can customize benchmark parameters such as the number of repetitions or specific configurations by modifying the `StringManipulationBenchmarks` class in the `StringManipulationBenchmarks.cs` file. Adjust these parameters to simulate different workload scenarios and optimize performance accordingly.
-
-#### Where can I find more information about BenchmarkDotNet?
-
-BenchmarkDotNet is the underlying framework used by StringBenchmarker for performance benchmarking. Visit the [BenchmarkDotNet GitHub repository](https://github.com/dotnet/BenchmarkDotNet) for documentation, tutorials, and additional resources.
 
 ## Support
 
@@ -141,6 +125,10 @@ Reach out to the maintainer at one of the following places:
 
 - [GitHub issues](https://github.com/HamidMolareza/StringBenchmarker/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
 - Contact options listed on [this GitHub profile](https://github.com/HamidMolareza)
+
+## Related
+
+BenchmarkDotNet is the underlying framework used by StringBenchmarker for performance benchmarking. Visit the [BenchmarkDotNet GitHub repository](https://github.com/dotnet/BenchmarkDotNet) for documentation, tutorials, and additional resources.
 
 ## License
 
