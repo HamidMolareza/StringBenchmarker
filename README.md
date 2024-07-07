@@ -37,9 +37,11 @@ The primary purpose of StringBenchmarker is to offer a comprehensive performance
 
 ## Results and Analysis
 
+```txt
 BenchmarkDotNet v0.13.12, Ubuntu 24.04 LTS (Noble Numbat)  
 Intel Core i7-3630QM CPU 2.40GHz (Ivy Bridge), 1 CPU, 8 logical and 4 physical cores  
 .NET SDK 8.0.105
+```
 
 ### Summary
 
@@ -66,7 +68,7 @@ The following table presents the performance benchmarks for different string man
 - **StringInterpolation:** Shows competitive performance with `StringConcatenation` for smaller repetitions but exhibits significant slowdown with larger data sets (`RepeatCount` of 1000).
 - **StringJoin:** Demonstrates the best performance across all scenarios, indicating its efficiency in concatenating strings.
 
-### Interpretation
+#### Interpretation
 
 - **Mean:** Represents the average execution time across multiple iterations.
 - **StdDev (Standard Deviation):** Indicates the variability or dispersion of data points around the mean.
@@ -83,8 +85,8 @@ These benchmarks provide valuable insights into choosing the most suitable strin
 
 ### Prerequisites
 Before you begin, ensure you have one of following items installed:
-- Docker: Ensure Docker is installed and running on your system.
-- .NET SDK 8.0 or higher.
+- **Docker:** Ensure Docker is installed and running on your system.
+- **.NET SDK 8.0**
 
 ### Installation
 
@@ -133,14 +135,10 @@ Once you have built the Docker image or the .NET project, you can use it to run 
 
   This command runs the benchmarks using .NET 8 and displays the results in the console.
 
-### Customization and Reports
-
-- **Customize benchmark parameters:**
-  You can customize benchmark parameters such as the number of repetitions or other configurations by modifying the `StringManipulationBenchmarks` class in the `StringManipulationBenchmarks.cs` file.
-
-## File Structures
+## Files Structure
 
 ```txt
+src
 ├── Dockerfile
 ├── StringBenchmarker
 │   ├── Program.cs
@@ -165,13 +163,6 @@ StringBenchmarker offers the following features to analyze and optimize string m
 
 - **.NET 8 Compatibility**: Built with .NET 8, supporting the latest features and optimizations for string manipulation in C#.
 
-## Support
-
-Reach out to the maintainer at one of the following places:
-
-- [GitHub issues](https://github.com/HamidMolareza/StringBenchmarker/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- Contact options listed on [this GitHub profile](https://github.com/HamidMolareza)
-
 ## FAQ
 
 #### What is StringBenchmarker?
@@ -193,6 +184,13 @@ You can customize benchmark parameters such as the number of repetitions or spec
 #### Where can I find more information about BenchmarkDotNet?
 
 BenchmarkDotNet is the underlying framework used by StringBenchmarker for performance benchmarking. Visit the [BenchmarkDotNet GitHub repository](https://github.com/dotnet/BenchmarkDotNet) for documentation, tutorials, and additional resources.
+
+## Support
+
+Reach out to the maintainer at one of the following places:
+
+- [GitHub issues](https://github.com/HamidMolareza/StringBenchmarker/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
+- Contact options listed on [this GitHub profile](https://github.com/HamidMolareza)
 
 ## License
 
