@@ -2,8 +2,6 @@
   <h1>StringBenchmarker</h1>
   <br />
   <a href="#results-and-analysis"><strong>Results and Analysis »</strong></a>
-  
-  <a href="#getting-started"><strong>Getting Started »</strong></a>
   <br />
   <br />
   <a href="https://github.com/HamidMolareza/StringBenchmarker/issues/new?assignees=&labels=bug&template=BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
@@ -85,62 +83,7 @@ These benchmarks provide valuable insights into choosing the most suitable strin
 
 ## Getting Started
 
-### Prerequisites
-Before you begin, ensure you have one of following items installed:
-- **Docker:** Ensure Docker is installed and running on your system.
-- **.NET SDK 8.0**
-
-### Installation
-
-#### Using Docker
-
-To get started with `StringBenchmarker` using Docker, follow these steps:
-
-1. **Clone the repository**
-
-2. **Build the Docker image:**
-   ```bash
-   docker build -t stringbenchmarker .
-   ```
-
-   This command builds a Docker image named `stringbenchmarker` using the Dockerfile provided in the repository.
-
-#### Using .NET 8
-
-To get started with StringBenchmarker using .NET 8, follow these steps:
-
-1. **Clone the repository**
-
-2. **Restore dependencies and build the project:**
-   ```bash
-   dotnet restore
-   dotnet build --configuration Release --no-restore
-   ```
-
-   This command restores dependencies and builds the project in Release mode.
-
-### Usage
-
-Once you have built the Docker image or the .NET project, you can use it to run benchmarks with different string manipulation methods.
-
-- **Run benchmarks with Docker:**
-  ```bash
-  docker run --rm stringbenchmarker
-  ```
-
-  This command runs the benchmarks inside the Docker container and displays the results in the console.
-
-  Finally:
-  ```bash
-  docker rmi -f stringbenchmarker
-  ```
-
-- **Run benchmarks with .NET 8:**
-  ```bash
-  dotnet run --project StringBenchmarker.csproj --configuration Release --no-build
-  ```
-
-  This command runs the benchmarks using .NET 8 and displays the results in the console.
+To use this project, you can use Docker or .NET SDK 8.0. See [Getting Started](docs/Getting-Started.md) for more information.
 
 ## Files Structure
 
