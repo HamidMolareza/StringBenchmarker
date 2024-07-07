@@ -3,6 +3,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace StringBenchmarker;
 
+[MemoryDiagnoser] //Allows us to track the number of bytes assigned and the frequency of garbage collection.
 public class StringManipulationBenchmarks {
     public string BaseString { get; set; } = "BenchmarkDotNet is a powerful .NET library for benchmarking your code.";
 
