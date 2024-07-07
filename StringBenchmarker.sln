@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBenchmarker", "StringBenchmarker\StringBenchmarker.csproj", "{4BA93604-CC92-462E-AFD9-B3DD2CBE735D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBenchmarker.Tests", "StringBenchmarker.Tests\StringBenchmarker.Tests.csproj", "{83997E91-4949-4B04-9303-93E5BEA18300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA93604-CC92-462E-AFD9-B3DD2CBE735D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA93604-CC92-462E-AFD9-B3DD2CBE735D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA93604-CC92-462E-AFD9-B3DD2CBE735D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA93604-CC92-462E-AFD9-B3DD2CBE735D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83997E91-4949-4B04-9303-93E5BEA18300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83997E91-4949-4B04-9303-93E5BEA18300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83997E91-4949-4B04-9303-93E5BEA18300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83997E91-4949-4B04-9303-93E5BEA18300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
