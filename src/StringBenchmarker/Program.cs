@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using BenchmarkDotNet.Running;
+using StringBenchmarker;
 
-Console.WriteLine("Hello, World!");
+var summary = BenchmarkRunner.Run<StringManipulationBenchmarks>();
